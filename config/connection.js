@@ -6,8 +6,8 @@ async function getConnection() {
   if (!db) {
     db = await mysql.createConnection({
       host: '127.0.0.1',
-      user: 'root',
-      password: 'Gunwook66803!',
+      user: '',
+      password: '',
       database: 'company_db'
     });
   }
